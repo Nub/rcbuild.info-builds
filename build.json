@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Custom made 190mm \"Flying Squirrel\"",
+    "esc": "Flyduino/KISS-18A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "Gemfan/5x4.5-FG-BN"
+    ],
+    "arm": "",
+    "battery": [
+      "Tattu 4S 1300mAh 75C"
+    ],
+    "osd": "",
+    "receiver": "Brotronics Submicro LRS",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "GoPro/HERO4-Silver",
+    "videotx": "Hawkeye 5.8ghz 32ch 200mw w/pigtail",
+    "blackbox": "ReadyToFlyQuads/SD-Data-Logger",
+    "voltagereg": "5v Linear"
+  },
+  "version": 1
 }
